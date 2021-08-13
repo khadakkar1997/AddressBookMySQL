@@ -17,3 +17,10 @@ Phone_number varchar(15),
 email varchar(50))
 
 select * from employee_payroll
+
+insert into employee_Payroll values
+(
+'Arya','Khadakkar','pratapNagar','Nagpur','Maharashtra',440022,9922861753,'aryakhadakkar03@gmail.com'),
+('Anjali','khadakkar','pratapNagar','Nagpur','Maharashtra',440022,9922868753,'anajal@gmail.com'),
+('Abhijit','Khadakkar','pratapNagar','Nagpur','Maharashtra',440022,9912000001,'raki@gmail.com'),
+('Omkar','Khadakkar','pratapNagar','Nagpur','Maharashtra',440022,9141253625,'omkar9587@gmail.com');
