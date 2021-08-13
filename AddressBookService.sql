@@ -29,3 +29,5 @@ update employee_payroll set zip = 4400855 where first_name = 'Harsha'
 Delete from employee_payroll where first_name = 'Harsha'
 
 select * from employee_payroll where city = 'Mumbai' and  state = 'Maharashtra'
+
+select COUNT(first_name) from employee_payroll where city = 'Abhijit' and state = 'Maharashtra'
