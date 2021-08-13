@@ -21,10 +21,9 @@ select * from employee_payroll
 insert into employee_Payroll values
 (
 'Arya','Khadakkar','pratapNagar','Nagpur','Maharashtra',440022,9922861753,'aryakhadakkar03@gmail.com'),
-('Anjali','khadakkar','pratapNagar','Nagpur','Maharashtra',440011,9922868753,'anajal@gmail.com'),
-('Abhijit','Khadakkar','pratapNagar','Nagpur','Maharashtra',440033,9912000001,'raki@gmail.com'),
-('Omkar','Khadakkar','pratapNagar','Nagpur','Maharashtra',440055,9141253625,'omkar9587@gmail.com');
-
+('Anjali','khadakkar','pratapNagar','Mumbai','Maharashtra',440011,9922868753,'anajal@gmail.com'),
+('Abhijit','Khadakkar','pratapNagar','Pune','Maharashtra',440033,9912000001,'raki@gmail.com'),
+('Omkar','Khadakkar','pratapNagar','Amravati','Maharashtra',440055,9141253625,'omkar9587@gmail.com');
 update employee_payroll set zip = 4400855 where first_name = 'Harsha'
 
 Delete from employee_payroll where first_name = 'Harsha'
