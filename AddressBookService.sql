@@ -26,3 +26,5 @@ insert into employee_Payroll values
 ('Omkar','Khadakkar','pratapNagar','Nagpur','Maharashtra',440055,9141253625,'omkar9587@gmail.com');
 
 update employee_payroll set zip = 4400855 where first_name = 'Harsha'
+
+Delete from employee_payroll where first_name = 'Harsha'
